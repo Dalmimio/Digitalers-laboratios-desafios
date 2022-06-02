@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class ejercicio1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("¡Gracias por contactarte con nosotros!");
+		System.out.println("¿En qué podemos ayudarte?");
+		System.out.println("A) Documentación \nB) Cotización \nC) Asistencia \nD) Siniestros\n E) Información de pagos\nF) Otras consultas\nG) Anulación");
+		
+	}
+
+}

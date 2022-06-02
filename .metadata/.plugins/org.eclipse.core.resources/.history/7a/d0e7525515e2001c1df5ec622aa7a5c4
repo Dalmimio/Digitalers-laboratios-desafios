@@ -1,0 +1,28 @@
+package estructurawhile;
+
+import java.util.Scanner;
+
+public class laboratoriowhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		
+		int numero, sumatoria=0;
+		
+		System.out.println("Ingrese un número, para salir, ingrese 0");
+		numero = teclado.nextInt();
+		
+		while (numero != 0) {
+			if (numero==0) {
+				break;
+			}else {
+				sumatoria+= numero;
+			}
+			System.out.println("Ingrese un número, para salir, ingrese 0");
+			numero = teclado.nextInt();
+			
+		}
+	}
+
+}

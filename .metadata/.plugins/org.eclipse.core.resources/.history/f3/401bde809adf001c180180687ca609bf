@@ -1,0 +1,18 @@
+import java.util.Random;
+
+public class ejercitacionMath {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Color RGB generado aleatoriamente:");
+		
+		int r = (int) (Math.random() * (255 - 0)) + 0;
+		int g = (int) (Math.random() * (255 - 0)) + 0;
+		int b = (int) (Math.random() * (255 - 0)) + 0;
+		
+		System.out.println("Color RGB: " + r + ", " + g + ", " + b);
+
+	}
+
+	
+}

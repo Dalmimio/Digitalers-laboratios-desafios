@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class desafios {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*generar un programa que permita al usuario ingresar 
+		por consola en la misma línea el primer nombre y 
+		primer apellido y realice las siguientes operaciones:
+		1. Mostrar el nombre y apellido por separado.
+		2. Mostrar las iniciales en mayúsculas*/
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Ingrese su primer nombre y primer apellido: ");
+		
+		String nomYApe;
+		nomYApe = teclado.nextLine();
+		
+		int largo = nomYApe.length();
+		int indice = nomYApe.indexOf(" ");
+		
+		System.out.println("Largo del nom y apellido: " + largo);
+		System.out.println("indice donde se encuentra el espacio: " + indice);
+		
+		
+		
+		}
+
+}

@@ -13,7 +13,7 @@ public class ejercicio1 {
 		System.out.println("A) Documentación \nB) Cotización \nC) Asistencia \nD) Siniestros\nE) Información de pagos\nF) Otras consultas\nG) Anulación");
 		
 		System.out.print("Escribe la letra de la opción elegida: ");
-		letra = teclado.next().charAt(0);;
+		letra = teclado.next().charAt(0);
 		
 		switch (letra){
 			case 'A':

@@ -6,9 +6,9 @@ public class Alumno {
 	public List<Asignatura> Materias;
 	private Carrera Carrera;
 	
-	@Override
-	public void mostrarDatos() {
-		super.mostrarDatos();
+	
+	public void mostrarDatos(){
+		mostrarDatos();
 		System.out.println("Código de alumno: " + id_alumno);
 		System.out.println("Carrera: " + getCarrera());
 	}

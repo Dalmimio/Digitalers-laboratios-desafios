@@ -45,6 +45,8 @@ public class Alumno {
 	public void inscribirCarrera(){
 	
 	}
+    public void mostrarDatos(int i) {
+    }
 	
 	
 	

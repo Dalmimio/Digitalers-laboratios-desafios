@@ -16,8 +16,8 @@ public class Tramite {
 	public Data getFecha() {
 		return Fecha;
 	}
-	public void setFecha(Data fecha) {
-		Fecha = fecha;
+	public void setFecha(Data paramFec) {
+		Fecha = paramFec;
 	}
 	public Alumno getAlumno() {
 		return Alumno;
@@ -31,10 +31,6 @@ public class Tramite {
 	public void setEstado(String estado) {
 		Estado = estado;
 	}
-	
-	
-	// get y set
-	
-	
+
 	
 }
